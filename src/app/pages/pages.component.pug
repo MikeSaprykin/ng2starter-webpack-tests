@@ -1,0 +1,13 @@
+nav.navbar.navbar-light.bg-faded.pages-nav
+  a.navbar-brand([routerLink]="['index']") Test
+  ul.nav.navbar-nav
+    li.nav-item.active
+      a.nav-link([routerLink]="['index']")
+        |Index #[span.sr-only (current)]
+    li.nav-item.active
+      a.nav-link([routerLink]="['login']")
+        | Login
+    li.nav-item.active
+      a.nav-link([routerLink]="['register']")
+        | Registration
+router-outlet

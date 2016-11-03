@@ -4,3 +4,13 @@ Angular 2 starter kit with Webpack module bundler and Karma/Jasmine/PhantomJS fo
 #To run the project go:
     - NPM/YARN INSTALL
     - NPM STARt
+    
++ Jade/Pug support added 
++ SCSS/SASS support added
+
+* To Dos:
+  *  Bootstrap Lib into root App Component Styles to provide bootstrap sass globaly
+  *  Adding essential services for the starter seed
+  *  Mark-up for login/index/register and profile page
+  *  Secure routes module
+  *  Image loader with webpack

@@ -5,8 +5,8 @@ import {Component, ViewEncapsulation} from '@angular/core';
 @Component({
   selector: 'pages',
   encapsulation: ViewEncapsulation.None,
-  styles: [],
-  template: require('./pages.component.html')
+  template: require('./pages.component.pug'),
+  styleUrls:['./pages.scss'],
 })
 export class Pages {
 

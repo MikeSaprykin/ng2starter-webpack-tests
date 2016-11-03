@@ -19,14 +19,12 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.sass$/,
-        exclude: helpers.root('src', 'app'),
-        loader: ExtractTextPlugin.extract('style', 'css!postcss!sass!')
+        test: /\.(sass|scss)$/,
+        loaders: ['to-string-loader', 'css-loader', 'postcss-loader', 'resolve-url-loader', 'sass-loader']
       },
       {
-        test: /\.scss$/,
-        exclude: helpers.root('src', 'app'),
-        loader: ExtractTextPlugin.extract('style', 'css!postcss!sass!')
+        test: /\.(pug|jade)$/,
+        loader: 'pug-html-loader'
       },
       {
         test: /\.ts$/,
