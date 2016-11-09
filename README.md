@@ -14,3 +14,4 @@ Angular 2 starter kit with Webpack module bundler and Karma/Jasmine/PhantomJS fo
   *  Mark-up for login/index/register and profile page
   *  Secure routes module
   *  Image loader with webpack
+  *  Integrate project with REDUX
